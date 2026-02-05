@@ -1,0 +1,8 @@
+[
+  { "name": "バグ", "color": "d73a4a", "description": "アプリの不具合、バグ" },
+  { "name": "機能追加", "color": "097952", "description": "機能をつけることが確定している" },
+  { "name": "機能改善", "color": "05819b", "description": "機能を改善、変更する" },
+  { "name": "リファクタ", "color": "3817e4", "description": "リファクタリングに関わる内容" },
+  { "name": "相談", "color": "d876e3", "description": "機能についてや相談したいこと" },
+  { "name": "その他", "color": "bfdadc", "description": "どれにも含まれない" }
+]

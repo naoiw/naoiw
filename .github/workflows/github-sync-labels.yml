@@ -34,3 +34,6 @@ jobs:
               --labels github_template/labels.yml \
               --access-token $GH_TOKEN
           done
+
+      - name: Debug labels file
+        run: cat github_template/labels.yml

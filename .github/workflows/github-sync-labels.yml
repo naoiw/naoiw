@@ -8,10 +8,6 @@ on:
     paths:
       - github_template/labels.yml
 
-permissions:
-  contents: read
-  issues: write
-
 jobs:
   sync:
     runs-on: ubuntu-latest

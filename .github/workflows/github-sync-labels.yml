@@ -31,9 +31,6 @@ jobs:
           for repo in $(gh repo list ${{ github.repository_owner }} --limit 1000 --json nameWithOwner -q '.[].nameWithOwner'); do
             echo "Syncing $repo"
             github-label-sync "$repo" \
-              --labels github_template/labels.yml \
+              --labels github_template/labels.json \
               --access-token $GH_TOKEN
           done
-
-      - name: Debug labels file
-        run: cat github_template/labels.yml

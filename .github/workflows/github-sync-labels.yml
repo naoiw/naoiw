@@ -19,16 +19,18 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y gh
 
-      - name: Login gh
-        run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
-
       - name: Install label-sync
         run: |
           npm install -g github-label-sync
 
+      - name: Set GH_TOKEN
+        run: echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+
       - name: Sync
         run: |
           for repo in $(gh repo list ${{ github.repository_owner }} --limit 1000 --json nameWithOwner -q '.[].nameWithOwner'); do
-            github-label-sync "$repo" --labels github_template/labels.yml
+            echo "Syncing $repo"
+            github-label-sync "$repo" \
+              --labels github_template/labels.yml \
+              --access-token $GH_TOKEN
           done

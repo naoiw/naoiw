@@ -24,7 +24,7 @@ jobs:
           npm install -g github-label-sync
 
       - name: Set GH_TOKEN
-        run: echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+        run: echo "GH_TOKEN=${{ secrets.LABEL_SYNC_TOKEN  }}" >> $GITHUB_ENV
 
       - name: Sync
         run: |

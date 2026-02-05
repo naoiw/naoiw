@@ -1,4 +1,4 @@
-name: Sync labels
+name: GitHub-Sync-Labels
 
 on:
   workflow_dispatch:

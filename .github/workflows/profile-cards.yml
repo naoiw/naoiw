@@ -1,16 +1,10 @@
 name: Update GitHub Profile Cards
 
 on:
-  # Run once every day at 09:52 JST (00:52 UTC), ten minutes after
-  # the existing summary-cards workflow to avoid overlapping writes.
+  # Update the two displayed language cards daily at 09:52 JST (00:52 UTC).
   schedule:
     - cron: '52 0 * * *'
   workflow_dispatch:
-  # Generate the initial SVGs as soon as this workflow reaches main.
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/profile-cards.yml'
 
 permissions:
   contents: write

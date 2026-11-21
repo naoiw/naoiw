@@ -1,9 +1,9 @@
 name: Update GitHub Profile Cards
 
 on:
-  # Update the two displayed language cards daily at 09:52 JST (00:52 UTC).
+  # Update the two displayed language cards daily at 07:21 JST (22:21 UTC on the previous day).
   schedule:
-    - cron: '52 0 * * *'
+    - cron: '21 22 * * *'
   workflow_dispatch:
 
 permissions:

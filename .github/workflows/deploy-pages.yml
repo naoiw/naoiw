@@ -1,0 +1,59 @@
+name: Deploy profile cards to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - profile-card-output/**
+      - .github/workflows/deploy-pages.yml
+  workflow_run:
+    workflows:
+      - Update GitHub Profile Cards
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # A successful profile card update can include a GITHUB_TOKEN commit that
+    # cannot trigger other push workflows. workflow_run handles that case.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+      - name: Verify and stage site
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s index.html
+          for card in repo commit; do
+            test -s "profile-card-output/dark/languages-by-$card.svg"
+          done
+          mkdir -p _site/profile-card-output/dark
+          cp index.html _site/index.html
+          cp profile-card-output/dark/languages-by-{repo,commit}.svg _site/profile-card-output/dark/
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

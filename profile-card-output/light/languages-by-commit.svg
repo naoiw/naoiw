@@ -8,41 +8,41 @@
 <text x="466" y="90" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" font-weight="600" fill="#57606a">SHARE</text>
 <defs><clipPath id="language-label-region"><rect x="24" y="102" width="326" height="217"/></clipPath></defs>
 <circle cx="621" cy="168" r="94" fill="none" stroke="#f0f2f5" stroke-width="40"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#3178c6" stroke-width="40" stroke-dasharray="351.667 238.953" stroke-dashoffset="0.000" transform="rotate(-90 621 168)"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#f1e05a" stroke-width="40" stroke-dasharray="200.630 389.989" stroke-dashoffset="-351.667" transform="rotate(-90 621 168)"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#244776" stroke-width="40" stroke-dasharray="14.089 576.530" stroke-dashoffset="-552.297" transform="rotate(-90 621 168)"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#663399" stroke-width="40" stroke-dasharray="8.454 582.166" stroke-dashoffset="-566.386" transform="rotate(-90 621 168)"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#ffc200" stroke-width="40" stroke-dasharray="6.199 584.420" stroke-dashoffset="-574.840" transform="rotate(-90 621 168)"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#dea584" stroke-width="40" stroke-dasharray="5.636 584.984" stroke-dashoffset="-581.039" transform="rotate(-90 621 168)"/>
-<circle cx="621" cy="168" r="94" fill="none" stroke="#499886" stroke-width="40" stroke-dasharray="3.945 586.674" stroke-dashoffset="-586.674" transform="rotate(-90 621 168)"/>
-<text x="621" y="169" text-anchor="middle" font-size="22" font-family="system-ui, sans-serif" font-weight="650" fill="#1f2328">1,048</text>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#3178c6" stroke-width="40" stroke-dasharray="322.248 268.371" stroke-dashoffset="0.000" transform="rotate(-90 621 168)"/>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#f1e05a" stroke-width="40" stroke-dasharray="233.808 356.811" stroke-dashoffset="-322.248" transform="rotate(-90 621 168)"/>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#244776" stroke-width="40" stroke-dasharray="12.707 577.912" stroke-dashoffset="-556.056" transform="rotate(-90 621 168)"/>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#663399" stroke-width="40" stroke-dasharray="7.624 582.995" stroke-dashoffset="-568.763" transform="rotate(-90 621 168)"/>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#ffc200" stroke-width="40" stroke-dasharray="5.591 585.028" stroke-dashoffset="-576.388" transform="rotate(-90 621 168)"/>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#dea584" stroke-width="40" stroke-dasharray="5.083 585.537" stroke-dashoffset="-581.979" transform="rotate(-90 621 168)"/>
+<circle cx="621" cy="168" r="94" fill="none" stroke="#499886" stroke-width="40" stroke-dasharray="3.558 587.061" stroke-dashoffset="-587.061" transform="rotate(-90 621 168)"/>
+<text x="621" y="169" text-anchor="middle" font-size="22" font-family="system-ui, sans-serif" font-weight="650" fill="#1f2328">1,162</text>
 <text x="621" y="191" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" fill="#57606a">commits</text>
 <rect x="24" y="107" width="12" height="12" rx="2" fill="#3178c6"/>
 <text x="45" y="120" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>TypeScript</title>TypeScript</text>
-<text x="374" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">624</text>
-<text x="466" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">59.5%</text>
+<text x="374" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">634</text>
+<text x="466" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">54.6%</text>
 <rect x="24" y="138" width="12" height="12" rx="2" fill="#f1e05a"/>
 <text x="45" y="151" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>JavaScript</title>JavaScript</text>
-<text x="374" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">356</text>
-<text x="466" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">34.0%</text>
+<text x="374" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">460</text>
+<text x="466" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">39.6%</text>
 <rect x="24" y="169" width="12" height="12" rx="2" fill="#244776"/>
 <text x="45" y="182" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>CoffeeScript</title>CoffeeScript</text>
 <text x="374" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">25</text>
-<text x="466" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">2.4%</text>
+<text x="466" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">2.2%</text>
 <rect x="24" y="200" width="12" height="12" rx="2" fill="#663399"/>
 <text x="45" y="213" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>CSS</title>CSS</text>
 <text x="374" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">15</text>
-<text x="466" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">1.4%</text>
+<text x="466" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">1.3%</text>
 <rect x="24" y="231" width="12" height="12" rx="2" fill="#ffc200"/>
 <text x="45" y="244" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>Nim</title>Nim</text>
 <text x="374" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">11</text>
-<text x="466" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">1.0%</text>
+<text x="466" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">0.9%</text>
 <rect x="24" y="262" width="12" height="12" rx="2" fill="#dea584"/>
 <text x="45" y="275" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>Rust</title>Rust</text>
 <text x="374" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">10</text>
-<text x="466" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">1.0%</text>
+<text x="466" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">0.9%</text>
 <rect x="24" y="293" width="12" height="12" rx="2" fill="#499886"/>
 <text x="45" y="306" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>LiveScript</title>LiveScript</text>
 <text x="374" y="306" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">7</text>
-<text x="466" y="306" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">0.7%</text>
+<text x="466" y="306" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">0.6%</text>
 </svg>

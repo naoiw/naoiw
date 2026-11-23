@@ -7,10 +7,12 @@ on:
       - index.html
       - profile-card-output/**
       - .github/workflows/deploy-pages.yml
-  workflow_dispatch:
   workflow_run:
-    workflows: ["Update GitHub Profile Cards"]
+    workflows:
+      - Update GitHub Profile Cards
     types: [completed]
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -22,47 +24,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    # Scheduled card refreshes push with GITHUB_TOKEN and do not trigger
-    # ordinary push-based Pages builds. workflow_run publishes their output.
-    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out current main
-        uses: actions/checkout@v7
-        with:
-          ref: main
-          persist-credentials: false
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Stage static site and profile card SVGs
-        shell: bash
-        run: |
-          set -euo pipefail
-          test -s index.html
-          for metric in repo commit; do
-            test -s "profile-card-output/dark/languages-by-$metric.svg"
-          done
-
-          mkdir -p _site
-          cp index.html _site/index.html
-          cp -R profile-card-output _site/
-          touch _site/.nojekyll
-
-      - name: Upload GitHub Pages site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site
-
   deploy:
-    needs: build
+    # A successful profile card update can include a GITHUB_TOKEN commit that
+    # cannot trigger other push workflows. workflow_run handles that case.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Check out latest main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Verify and stage site
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s index.html
+          test -s profile-card-output/README.md
+          for theme in dark light; do
+            for card in repo commit; do
+              test -s "profile-card-output/$theme/languages-by-$card.svg"
+            done
+          done
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp -R profile-card-output _site/
+          touch _site/.nojekyll
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

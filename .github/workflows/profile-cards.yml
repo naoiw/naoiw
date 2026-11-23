@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Generate language cards
-        uses: naoiw/github-profile-cards@v1.0.0
+        uses: naoiw/github-profile-cards@v1.1.0
         with:
           username: naoiw
           top-n: '12'
@@ -29,7 +29,7 @@ jobs:
           theme: all
           output-dir: profile-card-output
 
-      - name: Commit generated SVGs when changed
+      - name: Commit generated SVGs and gallery when changed
         shell: bash
         run: |
           set -euo pipefail

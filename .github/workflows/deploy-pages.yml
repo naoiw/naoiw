@@ -37,17 +37,22 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: main
+          persist-credentials: false
       - name: Verify and stage site
         shell: bash
         run: |
           set -euo pipefail
           test -s index.html
-          for card in repo commit; do
-            test -s "profile-card-output/dark/languages-by-$card.svg"
+          test -s profile-card-output/README.md
+          for theme in dark light; do
+            for card in repo commit; do
+              test -s "profile-card-output/$theme/languages-by-$card.svg"
+            done
           done
-          mkdir -p _site/profile-card-output/dark
+          mkdir -p _site
           cp index.html _site/index.html
-          cp profile-card-output/dark/languages-by-{repo,commit}.svg _site/profile-card-output/dark/
+          cp -R profile-card-output _site/
+          touch _site/.nojekyll
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload site artifact

@@ -8,46 +8,46 @@
 <text x="466" y="90" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" font-weight="600" fill="#57606a">SHARE</text>
 <defs><clipPath id="language-label-region"><rect x="24" y="102" width="326" height="248"/></clipPath></defs>
 <circle cx="621" cy="183" r="94" fill="none" stroke="#f0f2f5" stroke-width="40"/>
-<path d="M 621.000000 89.000000 A 94 94 0 1 1 558.666470 253.360010" fill="none" stroke="#3178c6" stroke-width="40"/>
-<path d="M 558.666470 253.360010 A 94 94 0 0 1 527.685366 194.330448" fill="none" stroke="#f1e05a" stroke-width="40"/>
-<path d="M 527.685366 194.330448 A 94 94 0 0 1 533.108473 149.667141" fill="none" stroke="#e34c26" stroke-width="40"/>
-<path d="M 533.108473 149.667141 A 94 94 0 0 1 543.639517 129.601914" fill="none" stroke="#244776" stroke-width="40"/>
-<path d="M 543.639517 129.601914 A 94 94 0 0 1 558.666470 112.639990" fill="none" stroke="#663399" stroke-width="40"/>
-<path d="M 558.666470 112.639990 A 94 94 0 0 1 577.316022 99.767134" fill="none" stroke="#499886" stroke-width="40"/>
-<path d="M 577.316022 99.767134 A 94 94 0 0 1 598.504328 91.731469" fill="none" stroke="#ffc200" stroke-width="40"/>
-<path d="M 598.504328 91.731469 A 94 94 0 0 1 621.000000 89.000000" fill="none" stroke="#dea584" stroke-width="40"/>
-<text x="621" y="184" text-anchor="middle" font-size="22" font-family="system-ui, sans-serif" font-weight="650" fill="#1f2328">26</text>
+<path d="M 621.000000 89.000000 A 94 94 0 1 1 569.346156 261.535854" fill="none" stroke="#3178c6" stroke-width="40"/>
+<path d="M 569.346156 261.535854 A 94 94 0 0 1 530.948986 209.959504" fill="none" stroke="#f1e05a" stroke-width="40"/>
+<path d="M 530.948986 209.959504 A 94 94 0 0 1 528.428071 166.677071" fill="none" stroke="#663399" stroke-width="40"/>
+<path d="M 528.428071 166.677071 A 94 94 0 0 1 545.600420 126.867092" fill="none" stroke="#e34c26" stroke-width="40"/>
+<path d="M 545.600420 126.867092 A 94 94 0 0 1 560.577965 110.991822" fill="none" stroke="#244776" stroke-width="40"/>
+<path d="M 560.577965 110.991822 A 94 94 0 0 1 578.812877 98.998532" fill="none" stroke="#499886" stroke-width="40"/>
+<path d="M 578.812877 98.998532 A 94 94 0 0 1 599.322108 91.533782" fill="none" stroke="#ffc200" stroke-width="40"/>
+<path d="M 599.322108 91.533782 A 94 94 0 0 1 621.000000 89.000000" fill="none" stroke="#dea584" stroke-width="40"/>
+<text x="621" y="184" text-anchor="middle" font-size="22" font-family="system-ui, sans-serif" font-weight="650" fill="#1f2328">27</text>
 <text x="621" y="206" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" fill="#57606a">repos</text>
 <rect x="24" y="107" width="12" height="12" rx="2" fill="#3178c6"/>
 <text x="45" y="120" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>TypeScript</title>TypeScript</text>
 <text x="374" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">16</text>
-<text x="466" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">61.5%</text>
+<text x="466" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">59.3%</text>
 <rect x="24" y="138" width="12" height="12" rx="2" fill="#f1e05a"/>
 <text x="45" y="151" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>JavaScript</title>JavaScript</text>
 <text x="374" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">3</text>
-<text x="466" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">11.5%</text>
-<rect x="24" y="169" width="12" height="12" rx="2" fill="#e34c26"/>
-<text x="45" y="182" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>HTML</title>HTML</text>
+<text x="466" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">11.1%</text>
+<rect x="24" y="169" width="12" height="12" rx="2" fill="#663399"/>
+<text x="45" y="182" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>CSS</title>CSS</text>
 <text x="374" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">2</text>
-<text x="466" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">7.7%</text>
-<rect x="24" y="200" width="12" height="12" rx="2" fill="#244776"/>
-<text x="45" y="213" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>CoffeeScript</title>CoffeeScript</text>
-<text x="374" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">1</text>
-<text x="466" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.8%</text>
-<rect x="24" y="231" width="12" height="12" rx="2" fill="#663399"/>
-<text x="45" y="244" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>CSS</title>CSS</text>
+<text x="466" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">7.4%</text>
+<rect x="24" y="200" width="12" height="12" rx="2" fill="#e34c26"/>
+<text x="45" y="213" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>HTML</title>HTML</text>
+<text x="374" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">2</text>
+<text x="466" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">7.4%</text>
+<rect x="24" y="231" width="12" height="12" rx="2" fill="#244776"/>
+<text x="45" y="244" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>CoffeeScript</title>CoffeeScript</text>
 <text x="374" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">1</text>
-<text x="466" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.8%</text>
+<text x="466" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.7%</text>
 <rect x="24" y="262" width="12" height="12" rx="2" fill="#499886"/>
 <text x="45" y="275" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>LiveScript</title>LiveScript</text>
 <text x="374" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">1</text>
-<text x="466" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.8%</text>
+<text x="466" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.7%</text>
 <rect x="24" y="293" width="12" height="12" rx="2" fill="#ffc200"/>
 <text x="45" y="306" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>Nim</title>Nim</text>
 <text x="374" y="306" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">1</text>
-<text x="466" y="306" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.8%</text>
+<text x="466" y="306" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.7%</text>
 <rect x="24" y="324" width="12" height="12" rx="2" fill="#dea584"/>
 <text x="45" y="337" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328"><title>Rust</title>Rust</text>
 <text x="374" y="337" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#1f2328">1</text>
-<text x="466" y="337" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.8%</text>
+<text x="466" y="337" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#57606a">3.7%</text>
 </svg>

@@ -8,24 +8,24 @@
 <text x="466" y="90" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" font-weight="600" fill="#a6b3c1">SHARE</text>
 <defs><clipPath id="language-label-region"><rect x="24" y="102" width="326" height="248"/></clipPath></defs>
 <circle cx="621" cy="183" r="94" fill="none" stroke="#30363d" stroke-width="40"/>
-<path d="M 621.000000 89.000000 A 94 94 0 0 1 628.947946 276.663387" fill="none" stroke="#3178c6" stroke-width="40"/>
-<path d="M 628.947946 276.663387 A 94 94 0 0 1 570.348925 103.813709" fill="none" stroke="#f1e05a" stroke-width="40"/>
-<path d="M 570.348925 103.813709 A 94 94 0 0 1 590.610324 94.047948" fill="none" stroke="#e34c26" stroke-width="40"/>
-<path d="M 590.610324 94.047948 A 94 94 0 0 1 601.254552 91.097240" fill="none" stroke="#244776" stroke-width="40"/>
-<path d="M 601.254552 91.097240 A 94 94 0 0 1 608.657492 89.813829" fill="none" stroke="#663399" stroke-width="40"/>
-<path d="M 608.657492 89.813829 A 94 94 0 0 1 613.492637 89.300269" fill="none" stroke="#ffc200" stroke-width="40"/>
-<path d="M 613.492637 89.300269 A 94 94 0 0 1 617.905996 89.050933" fill="none" stroke="#dea584" stroke-width="40"/>
-<path d="M 617.905996 89.050933 A 94 94 0 0 1 621.000000 89.000000" fill="none" stroke="#499886" stroke-width="40"/>
-<text x="621" y="184" text-anchor="middle" font-size="22" font-family="system-ui, sans-serif" font-weight="650" fill="#e6edf3">1,336</text>
+<path d="M 621.000000 89.000000 A 94 94 0 0 1 629.375849 276.626092" fill="none" stroke="#3178c6" stroke-width="40"/>
+<path d="M 629.375849 276.626092 A 94 94 0 0 1 569.674428 104.249218" fill="none" stroke="#f1e05a" stroke-width="40"/>
+<path d="M 569.674428 104.249218 A 94 94 0 0 1 589.819881 94.321930" fill="none" stroke="#e34c26" stroke-width="40"/>
+<path d="M 589.819881 94.321930 A 94 94 0 0 1 600.421308 91.280223" fill="none" stroke="#244776" stroke-width="40"/>
+<path d="M 600.421308 91.280223 A 94 94 0 0 1 608.675835 89.811401" fill="none" stroke="#663399" stroke-width="40"/>
+<path d="M 608.675835 89.811401 A 94 94 0 0 1 613.503835 89.299373" fill="none" stroke="#ffc200" stroke-width="40"/>
+<path d="M 613.503835 89.299373 A 94 94 0 0 1 617.910619 89.050781" fill="none" stroke="#dea584" stroke-width="40"/>
+<path d="M 617.910619 89.050781 A 94 94 0 0 1 621.000000 89.000000" fill="none" stroke="#499886" stroke-width="40"/>
+<text x="621" y="184" text-anchor="middle" font-size="22" font-family="system-ui, sans-serif" font-weight="650" fill="#e6edf3">1,338</text>
 <text x="621" y="206" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" fill="#a6b3c1">commits</text>
 <rect x="24" y="107" width="12" height="12" rx="2" fill="#3178c6"/>
 <text x="45" y="120" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3"><title>TypeScript</title>TypeScript</text>
 <text x="374" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3">650</text>
-<text x="466" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">48.7%</text>
+<text x="466" y="120" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">48.6%</text>
 <rect x="24" y="138" width="12" height="12" rx="2" fill="#f1e05a"/>
 <text x="45" y="151" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3"><title>JavaScript</title>JavaScript</text>
 <text x="374" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3">565</text>
-<text x="466" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">42.3%</text>
+<text x="466" y="151" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">42.2%</text>
 <rect x="24" y="169" width="12" height="12" rx="2" fill="#e34c26"/>
 <text x="45" y="182" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3"><title>HTML</title>HTML</text>
 <text x="374" y="182" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3">51</text>
@@ -36,8 +36,8 @@
 <text x="466" y="213" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">1.9%</text>
 <rect x="24" y="231" width="12" height="12" rx="2" fill="#663399"/>
 <text x="45" y="244" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3"><title>CSS</title>CSS</text>
-<text x="374" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3">17</text>
-<text x="466" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">1.3%</text>
+<text x="374" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3">19</text>
+<text x="466" y="244" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#a6b3c1">1.4%</text>
 <rect x="24" y="262" width="12" height="12" rx="2" fill="#ffc200"/>
 <text x="45" y="275" clip-path="url(#language-label-region)" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3"><title>Nim</title>Nim</text>
 <text x="374" y="275" text-anchor="end" font-size="14" font-family="system-ui, sans-serif" fill="#e6edf3">11</text>
